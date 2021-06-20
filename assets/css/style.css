@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.logoandnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    padding-top: 32px;
+    margin-bottom: 88px;
+}
+
+nav #myLinks {
+    display: none;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 6.25px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+#burger {
+    cursor: pointer;
+}
+
+nav {
+    position: relative;
+}
+
+#myLinks {
+    position: absolute;
+    background-color: white;
+    top: 48px;
+    right: 0;
+    width: 329px;
+    padding-top: 47px;
+    padding-bottom: 23px;
+}
+
+#myLinks a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+    color: #808397;
+    padding: 15px 32px;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    border-radius: 28px;
+    background-color: #FBD600;
+}
+
+@media only screen and (min-width:850px) {
+    #myLinks {
+        display: block !important;
+    }
+    #myLinks {
+        position: unset;
+        background-color: unset;
+        width: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    #burger {
+        display: none;
+    }
+    #myLinks a {
+        display: inline-block;
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        padding: 15px 32px;
+        width: unset;
+    }
+    nav a:hover {
+        border-radius: 28px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .logoandnav {
+        padding: 32px;
+        align-items: center;
+    }
+    header {
+        background-image: url("../images/image-header-desktop.jpg");
+    }
+}
