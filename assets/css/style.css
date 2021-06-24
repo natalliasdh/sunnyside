@@ -450,3 +450,56 @@
                 height: 447px;
             }
         }
+        
+        footer {
+            background-color: #90D4C6;
+            padding: 64px 39px 80px 39px;
+            color: #2C7566;
+            text-align: center;
+        }
+        
+        h5 {
+            font-size: 33px;
+            font-weight: 900;
+            font-family: 'Fraunces', serif;
+            margin-bottom: 40px;
+        }
+        
+        .footnav a {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: -0.14px;
+            color: #458D7E;
+        }
+        
+        .footnav a:hover {
+            color: white;
+        }
+        
+        .footnav {
+            margin: 0 auto;
+            max-width: 300px;
+            margin-bottom: 88px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .social {
+            width: 164px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .attribution {
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .attribution a {
+            text-decoration: none;
+            color: white;
+        }
