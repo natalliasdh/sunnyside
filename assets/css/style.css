@@ -450,6 +450,18 @@
                 background-position: center;
                 height: 447px;
             }
+            .bottles {
+                background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+            }
+            .orange {
+                background-image: url("../images/desktop/image-gallery-orange.jpg");
+            }
+            .cone {
+                background-image: url("../images/desktop/image-gallery-cone.jpg");
+            }
+            .sugar {
+                background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+            }
         }
         
         footer {
