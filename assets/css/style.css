@@ -192,7 +192,7 @@
             border-radius: 10px;
             margin: 0 auto;
             opacity: 0.25;
-            margin-top: -7px;
+            margin-top: -10px;
         }
         
         .cup {
@@ -329,7 +329,8 @@
                 padding-right: 80px;
             }
             .learn:after {
-                margin: 0 0;
+                margin-left: 0;
+                width: 127px;
             }
             h2 {
                 font-weight: 900;
@@ -502,4 +503,12 @@
         .attribution a {
             text-decoration: none;
             color: white;
+        }
+        
+        .learn {
+            cursor: pointer;
+        }
+        
+        .learn:hover:after {
+            opacity: 1;
         }
